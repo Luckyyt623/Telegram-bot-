@@ -1,7 +1,7 @@
 {
-  "name": "ticket-chat-server",
+  "name": "ticket-support-server",
   "version": "1.0.0",
-  "description": "Simple ticket-based WebSocket server",
+  "description": "WebSocket server for ticket-based support system",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -9,5 +9,16 @@
   "dependencies": {
     "express": "^4.18.2",
     "ws": "^8.13.0"
-  }
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": [
+    "express",
+    "websocket",
+    "support",
+    "tickets"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
 }
