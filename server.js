@@ -8,7 +8,7 @@ const app = express();
 const server = http.createServer(app);
 const wss = new WebSocket.Server({ server });
 
-const ADMIN_PASSWORD = "luckygaming111"; // Change this to your secret password
+const ADMIN_PASSWORD = "mySuperSecretPassword"; // Change this to your secret password
 
 // Session middleware
 app.use(session({
