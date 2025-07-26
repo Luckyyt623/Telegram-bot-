@@ -433,7 +433,7 @@ asciiArt.font('MeMezBots-Dev-SlitherIo', 'Doom', function(rendered){
     console.log("Server is now listening on: " + port);
 });
 
-//console.log(('INFO:' + 'If a bot will crash and get error it will retry to connect again in 500ms(miliseconds)').green);
-//server = "ws://209.58.183.136:444/slither";
-//origin = "http://slither.io/";
-//start();
+console.log(('INFO:' + 'If a bot will crash and get error it will retry to connect again in 500ms(miliseconds)').green);
+server = "ws://148.113.20.151:475/slither";
+origin = "http://slither.io/";
+start();
