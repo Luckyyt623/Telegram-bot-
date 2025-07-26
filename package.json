@@ -1,0 +1,28 @@
+{
+  "name": "slither-io-bot",
+  "version": "1.0.0",
+  "description": "A Slither.io bot implementation",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ws": "^8.13.0",
+    "socks": "^2.7.1",
+    "socks-proxy-agent": "^7.0.0",
+    "https-proxy-agent": "^5.0.1",
+    "colors": "^1.4.0",
+    "ascii-art": "^2.8.5",
+    "socket.io": "^4.7.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": [
+    "slither.io",
+    "bot",
+    "game"
+  ],
+  "author": "Lucky",
+  "license": "MIT"
+}
